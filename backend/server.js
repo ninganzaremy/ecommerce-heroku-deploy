@@ -64,5 +64,5 @@ app.post('/upload', (req, res) => {
     res.send(`/uploads/${filename}`);
   });
 });
-
+PORT: process.env.PORT || 5000
 app.listen(port, () => console.log(`Server serves at http://localhost:${port}`));
