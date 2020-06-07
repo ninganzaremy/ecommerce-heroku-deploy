@@ -70,9 +70,9 @@ router.post('/register', async (req, res) => {
   router.get("/createadmin", async (req, res) => {
       try {
       const user = new User({
-        name: 'Remy',
+        name: 'Ninganza',
         email: 'remimaradona@gmail.com',
-        password: '1234',
+        password: '1990',
         isAdmin: true
       });
       const newUser = await user.save();
