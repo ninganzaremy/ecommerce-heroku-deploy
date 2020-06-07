@@ -10,6 +10,7 @@ import productRoute from "./routes/productRoute";
 import orderRoute from "./routes/orderRoute";
 
 dotenv.config();
+const port =  process.env.PORT || 5000;
 const mongodbUrl = config.MONGODB_URL;
 mongoose
   .connect(mongodbUrl, {
